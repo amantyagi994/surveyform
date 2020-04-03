@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	line-height: 1.5;
+}
+
+body {
+	background: linear-gradient(180deg, #4400ff8a, #f700ff8a);
+	font-family: "Ubuntu", sans-serif;
+}
+
+input {
+	outline: none;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.titleContainer {
+	margin-top: 30px;
+	height: 100px;
+	width: 55%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	background-color: #4400ff8a;
+	box-shadow: 0 4px 8px 0 #00000066;
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+	.titleContainer {
+		width: 95%;
+		text-align: center;
+	}
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
+.formContainer {
+	margin: 10px 50px;
+	padding: 50px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	background: linear-gradient(180deg, #4400ff8a, #f700ff8a);
+	box-shadow: 0 4px 8px 0 #00000066;
+	border-radius: 5px;
+}
+
+.secondaryContainer {
+	width: 100%;
+	margin: 5px auto;
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+	.formContainer {
+		margin: 10px 30px;
+		padding: 20px;
+		width: 100%;
+	}
+}
+
+.label {
+	padding: 5px 1px;
+	width: auto;
+	font-size: 20px;
+}
+
+.inputbar {
+	width: 100%;
+	padding: 14px 5px;
+	border-radius: 5px;
+	outline: none;
+}
+
+.btn {
+	width: 100%;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #4400ff8a;
+	transition: 0.3s ease;
+	font-size: 22px;
+}
+
+.btn:hover {
+	background-color: #ff009dc5;
+	cursor: pointer;
+}
