@@ -8,7 +8,9 @@
 
 body {
 	background: linear-gradient(180deg, #4400ff8a, #f700ff8a);
-	font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+
 }
 
 input {
